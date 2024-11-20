@@ -1,4 +1,4 @@
-IMage Attribute prediction
+**Image Attribute prediction-**
 
 conda env create -f environment.yml:
 This command creates a new conda environment based on the specifications provided in the environment.yml file.
