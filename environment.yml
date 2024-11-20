@@ -1,0 +1,48 @@
+name: visual-taxonomy-env
+
+channels:
+
+  - defaults
+
+  - conda-forge
+
+dependencies:
+
+  - python=3.9
+
+  - numpy
+
+  - pandas
+
+  - scikit-learn
+
+  - pytorch
+
+  - torchvision
+
+  - matplotlib
+
+  - pillow
+
+  - pyyaml
+
+  - tqdm
+
+  - pip
+
+  - pip:
+
+    - torch==2.0.1  # Replace with the version used in the notebook
+
+    - torchvision==0.15.2  # Replace with the version used in the notebook
+
+    - parquet
+
+    - kaggle  # Optional: If you need Kaggle-specific tools
+
+  - ipykernel  # For Jupyter notebook compatibility
+
+  - zoneinfo  # For timezone handling
+
+  - pickle5  # For saving/loading custom encoders
+
